@@ -1,25 +1,24 @@
-//
-//  AnyPlugin.swift
-//  PluginArchitecture
-//
-//  Created by Kevin on 10/17/24.
-//
 
-import Foundation
 import SwiftUI
 
-struct AnyPlugin: Identifiable {
-    let id: UUID
+struct AnyPlugin: Plugin {
+    private let _id: UUID
+    private let _name: String
+    private let _imageName: String
     private let _render: () -> AnyView
 
-    // Initializer that accepts any `Plugin`
     init<P: Plugin>(_ plugin: P) {
-        self.id = plugin.id
-        self._render = { AnyView(plugin.render()) }  // Type erase the plugin's view
+        _id = plugin.id
+        _name = plugin.name
+        _imageName = plugin.imageName
+        _render = { AnyView(plugin.render()) }
     }
 
-    // Call the render function to get the type-erased view
-    func render() -> AnyView {
-        return _render()
+    var id: UUID { _id }
+    var name: String { _name }
+    var imageName: String { _imageName }
+
+    @ViewBuilder func render() -> some View {
+        _render()
     }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A4ABC3C2CC1696F00173A8D /* SquarePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4ABC3B2CC1696F00173A8D /* SquarePlugin.swift */; };
+		0A4ABC402CC16B9000173A8D /* ChatRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4ABC3F2CC16B9000173A8D /* ChatRowView.swift */; };
 		0A62D1B12CC14B2D005C32DA /* PluginArchitectureUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A62D1B02CC14B2D005C32DA /* PluginArchitectureUIApp.swift */; };
 		0A62D1B32CC14B2D005C32DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A62D1B22CC14B2D005C32DA /* ContentView.swift */; };
 		0A62D1B52CC14B2F005C32DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A62D1B42CC14B2F005C32DA /* Assets.xcassets */; };
@@ -20,6 +22,7 @@
 		0A7F133B2CC14BE000D603B4 /* PluginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F13372CC14BE000D603B4 /* PluginManager.swift */; };
 		0A7F133D2CC14C3100D603B4 /* AnyPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F133C2CC14C3100D603B4 /* AnyPlugin.swift */; };
 		0A7F133F2CC14C4300D603B4 /* IconPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F133E2CC14C4300D603B4 /* IconPlugin.swift */; };
+		0A7F13412CC14F1800D603B4 /* SamplePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F13402CC14F1800D603B4 /* SamplePlugin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A4ABC3B2CC1696F00173A8D /* SquarePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquarePlugin.swift; sourceTree = "<group>"; };
+		0A4ABC3F2CC16B9000173A8D /* ChatRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRowView.swift; sourceTree = "<group>"; };
 		0A62D1AD2CC14B2D005C32DA /* PluginArchitectureUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PluginArchitectureUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A62D1B02CC14B2D005C32DA /* PluginArchitectureUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginArchitectureUIApp.swift; sourceTree = "<group>"; };
 		0A62D1B22CC14B2D005C32DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +61,7 @@
 		0A7F13372CC14BE000D603B4 /* PluginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PluginManager.swift; sourceTree = "<group>"; };
 		0A7F133C2CC14C3100D603B4 /* AnyPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyPlugin.swift; sourceTree = "<group>"; };
 		0A7F133E2CC14C4300D603B4 /* IconPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconPlugin.swift; sourceTree = "<group>"; };
+		0A7F13402CC14F1800D603B4 /* SamplePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePlugin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +119,10 @@
 				0A7F13352CC14BE000D603B4 /* PluginArchitectureUIApp.swift */,
 				0A7F13362CC14BE000D603B4 /* PluginHostView.swift */,
 				0A7F13372CC14BE000D603B4 /* PluginManager.swift */,
+				0A7F13402CC14F1800D603B4 /* SamplePlugin.swift */,
 				0A62D1B22CC14B2D005C32DA /* ContentView.swift */,
+				0A4ABC3F2CC16B9000173A8D /* ChatRowView.swift */,
+				0A4ABC3B2CC1696F00173A8D /* SquarePlugin.swift */,
 				0A62D1B42CC14B2F005C32DA /* Assets.xcassets */,
 				0A62D1B62CC14B2F005C32DA /* Preview Content */,
 			);
@@ -277,6 +286,9 @@
 			files = (
 				0A7F133D2CC14C3100D603B4 /* AnyPlugin.swift in Sources */,
 				0A7F13382CC14BE000D603B4 /* Plugin.swift in Sources */,
+				0A7F13412CC14F1800D603B4 /* SamplePlugin.swift in Sources */,
+				0A4ABC402CC16B9000173A8D /* ChatRowView.swift in Sources */,
+				0A4ABC3C2CC1696F00173A8D /* SquarePlugin.swift in Sources */,
 				0A7F133A2CC14BE000D603B4 /* PluginHostView.swift in Sources */,
 				0A7F133F2CC14C4300D603B4 /* IconPlugin.swift in Sources */,
 				0A7F133B2CC14BE000D603B4 /* PluginManager.swift in Sources */,
