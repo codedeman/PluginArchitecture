@@ -30,6 +30,7 @@ struct SquarePlugin: Plugin {
                 .frame(maxWidth: 80) // Adjust max width for better layout
         }
         .padding()
+        .frame(width: 150)
         .background(Color.black.opacity(0.1))
         .cornerRadius(15)
     }

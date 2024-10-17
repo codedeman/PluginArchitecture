@@ -36,7 +36,8 @@ struct PluginHostView: View {
                         plugin.render()
                     }
                 }
-//                .padding(.horizontal)
+                .padding(.top)
+                .padding(.horizontal, 5)
             }
             .padding(.bottom)
             .background(Color(.systemBackground))
