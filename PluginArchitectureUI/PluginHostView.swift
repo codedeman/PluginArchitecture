@@ -28,10 +28,9 @@ struct PluginHostView: View {
                     }
                     .padding(.horizontal)
                 }
-//                .padding(.top)
                 Spacer()
                 // Vertical list of other plugins
-                LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2), spacing: 15) {
+                LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 2), spacing: 10) {
                     ForEach(verticalPlugins) { plugin in
                         plugin.render()
                     }

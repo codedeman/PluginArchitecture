@@ -17,7 +17,7 @@ struct SquarePlugin: Plugin {
             Image(systemName: imageName)
                 .resizable()
                 .scaledToFit()
-                .frame(width: 60, height: 60)
+                .frame(height: 30)
                 .padding()
                 .background(Color.white)
                 .shadow(radius: 3)
@@ -30,7 +30,7 @@ struct SquarePlugin: Plugin {
                 .frame(maxWidth: 80) // Adjust max width for better layout
         }
         .padding()
-        .frame(width: 150)
+        .frame(width: 150,height: 100)
         .background(Color.black.opacity(0.1))
         .cornerRadius(15)
     }
